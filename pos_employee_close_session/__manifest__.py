@@ -5,7 +5,7 @@
     "category": "Sales/Point of Sale",
     'summary': "Allow employees access to close session button",
     'description': "",
-    "authour": "Ewetoye Ibrahim",
+    "author": "Ewetoye Ibrahim",
     "auto_install": False,
     "depends": ["point_of_sale", "pos_hr"],
     'installable': True,
