@@ -14,6 +14,6 @@
             'pos_cash_opening_zero/static/src/js/Popups/CashOpeningPopup.js',
             ]
     },
-    'images': ['static/description/banner.png'],
+    'images': ['static/description/banner_screenshot.png'],
     'license': 'LGPL-3',
 }
