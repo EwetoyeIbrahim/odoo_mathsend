@@ -5,6 +5,7 @@
     "category": "Sales/Point of Sale",
     'summary': "Default POS cash opening value to zero, but allow modification",
     "author": "Ewetoye Ibrahim",
+    "website": "https://github.com/EwetoyeIbrahim/pos_cash_opening_zero",
     "auto_install": False,
     "depends": ["point_of_sale"],
     'installable': True,
@@ -14,6 +15,6 @@
             'pos_cash_opening_zero/static/src/js/Popups/CashOpeningPopup.js',
             ]
     },
-    'images': ['static/description/banner_screenshot.png'],
+    'images': ['static/description/banner_screenshot.jpg'],
     'license': 'LGPL-3',
 }
