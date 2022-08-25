@@ -6,6 +6,7 @@
     'summary': "Allow employees access to close session button",
     'description': "",
     "author": "Ewetoye Ibrahim",
+    "website": "https://github.com/EwetoyeIbrahim/pos_employees_close_session",
     "auto_install": False,
     "depends": ["point_of_sale", "pos_hr"],
     'installable': True,
