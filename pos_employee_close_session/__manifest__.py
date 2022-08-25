@@ -15,5 +15,6 @@
             'pos_employee_close_session/Chrome.js',
             ],
     },
+    'images': ['static/description/icon.png'],
     'license': 'LGPL-3',
 }
