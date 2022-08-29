@@ -12,7 +12,7 @@
     'application': False,
     'assets': {
         'point_of_sale.assets': [
-            'pos_cash_opening_zero/static/src/js/Popups/CashOpeningPopup.js',
+            'pos_cash_opening_zero/CashOpeningPopup.js',
             ]
     },
     'images': ['static/description/banner.png'],
