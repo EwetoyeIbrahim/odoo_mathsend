@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="posBarcodeOrderLine" t-inherit="point_of_sale.Orderline" t-inherit-mode="extension" owl="1">
+        <xpath expr="//span[hasclass('price')]" position="after">
+            <span>
+                <em>
+                    <t t-esc="props.line.get_barcode()" />
+                </em>
+            </span>
+        </xpath>
+    </t>
+</templates>
