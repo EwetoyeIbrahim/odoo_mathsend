@@ -7,8 +7,9 @@
     "license": "AGPL-3",
     "summary": "Print a product barcode label directly from picking line",
     "author": "Ewetoye Ibrahim",
-    "website" : "https://github.com/EwetoyeIbrahim/odoo_mathsend/stock_line_product_label",
+    "website" : "https://github.com/EwetoyeIbrahim/odoo_mathsend/tree/15.0/stock_line_product_label",
     "depends": ["stock"],
     "data": ['views.xml'],
     "installable": True,
+    "images": ["static/description/stocklinebarcode.jpg"],
 }
