@@ -9,7 +9,7 @@
                 <attribute name="invisible">1</attribute>
             </field>
             <field name="state_id" position="after">
-                <field name="city_id" placeholder="City" class="o_address_city" options="{'no_open': True, 'no_quick_create': True}" attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)]}" context="{'country_id': country_id, 'default_country_id': country_id, 'state_id': state_id}" />
+                <field name="city_id" placeholder="Local Area" class="o_address_city" options="{'no_open': True, 'no_quick_create': True}" attrs="{'readonly': [('type', '=', 'contact'),('parent_id', '!=', False)]}" context="{'country_id': country_id, 'default_country_id': country_id, 'state_id': state_id}" />
             </field>
         </field>
     </record>
