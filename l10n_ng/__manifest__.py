@@ -13,6 +13,7 @@
     'data': [
         'data/res.country.state.csv',
         'data/res.city.csv',
+        'data/res_country_data.xml',
         'views/res_partner_views.xml',
     ],
     'license': 'LGPL-3',
