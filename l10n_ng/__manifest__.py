@@ -7,7 +7,7 @@
     "author": "Ewetoye Ibrahim",
     "website" : "https://github.com/EwetoyeIbrahim/odoo_mathsend",
     "auto_install": False,
-    "depends": ["base_address_city"],
+    "depends": ["base_address_extended"],
     'installable': True,
     'application': False,
     'data': [
