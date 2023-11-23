@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_partner_form" model="ir.ui.view">
+        <field name="name">l10n_ng_city.res.partner.form</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base_address_extended.address_street_extended_city_form" />
+        <field name="arch" type="xml">
+            <field name="city_id" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </field>
+            <field name="state_id" position="after">
+                <field name="city_id"
+                       placeholder="Local Area"
+                       class="o_address_city"
+                       options="{'no_open': True, 'no_quick_create': True}"
+                       invisible= "not country_enforce_cities"
+                       readonly= "type == 'contact' and parent_id"
+                       context="{'country_id': country_id, 'default_country_id': country_id, 'state_id': state_id}"/>
+            </field>
+        </field>
+    </record>
+</odoo>
